@@ -1,8 +1,9 @@
 * {
     margin: 0px;
     padding: 0px;
-    /* background-color: aquamarine; */
     box-sizing: border-box;
+    font-family:open sans;
+
 }
 
 /* hero img */
@@ -22,7 +23,7 @@ header {
 
 .nav-bar {
     height: 100px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding:40px 60px;
@@ -60,7 +61,7 @@ header {
  /* align */
  .align {
     height: 80vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,13 +92,9 @@ header {
 
 /* action part */
 
-/* .action-container {
-    height: 90vh;
-    width: 90vw;
-} */
 .action-bar {
     height: 90vh;
-    width: 90vw;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -145,7 +142,7 @@ header {
 /* action info */
 
 .action-info {
-    width: 100vw;
+    width: 100%;
     height: 40vh;
     display: flex;
     justify-content: center;
@@ -160,7 +157,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    width:90vw;
+    width:90%;
     height: 30vh;
     background-color: #8481f077;
     border-radius: 1.5rem;
@@ -222,9 +219,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0px 60px;
-    /* max-width: 600px;
-    width: 100%; */
-    height: 70vw;
+    height: 60vh;
  }
 
  .form-content h1 {
@@ -259,3 +254,38 @@ header {
     padding: 8px 20px;
  }
 
+
+ /* footer */
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    gap: 15px;
+    width: 100%;
+}
+
+.footer-logo {
+    color: #4E47FF;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.footer-content {
+    color:#8987A1;
+    letter-spacing: 1px;
+}
+
+.para {
+    margin-left: 18.5px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: #8987A1;
+    margin-left: 20px;
+}
+
+.footer-link a:hover {
+    color: #4E47FF;
+}
