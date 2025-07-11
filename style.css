@@ -33,7 +33,7 @@ header {
 /* logo */
 .lgbt-container a {
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.8em;
     color:#4E47FF;
 }
 
@@ -42,7 +42,7 @@ header {
     color:white ;
     background-color: #4E47FF;
     border: none;
-    font: size 0.8em;
+    font: size 0.9em;
     padding: 10px 15px;
     border-radius: 10px;
     cursor: pointer;
@@ -52,7 +52,7 @@ header {
 .btn:hover {
     background-color: white;
     color: black;
-    font-size: 0.9em;
+    font-size: 1em;
     border: 1.5px solid #4E47FF;
 }
 
@@ -71,14 +71,14 @@ header {
  }
 
  .hero-title h2 {
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     color:#252432 ;
-    line-height: 35px;
-    font-size: 2rem;
+    line-height: 45px;
+    font-size: 2.8rem;
  }
 
 .btn2 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 8px 12px;
     border-radius: 10px;
     border: none;
@@ -88,3 +88,130 @@ header {
     margin-top: 10px;
     
 }
+
+/* action part */
+
+/* .action-container {
+    height: 90vh;
+    width: 90vw;
+} */
+.action-bar {
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 60px;
+}
+
+.action-size {
+    height:250px;
+    width: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: linear 0.25s;
+}
+
+.action-size:hover {
+    box-shadow: 2px 2px 6px rgba(29, 1, 1, 0.932);
+}
+ .action-text {
+    margin:0;
+ }
+
+.action-text h2 {
+    color: #252432;
+    letter-spacing: 1.5px;
+    font-size: 2rem;
+}
+
+.action-text p {
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    color:#252432;
+    font-size: 20px;
+}
+ .btn3 {
+    border: none;
+    background-color: #4E47FF;
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    height: 35px;
+ }
+   
+/* action info */
+
+.action-info {
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.sc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width:90vw;
+    height: 30vh;
+    background-color: #8481f077;
+    border: 1px solid rgba(29, 1, 1, 0.932);
+    border-radius: 1.5rem;
+    margin: 0px 60px;
+    transition: linear 0.2s;
+
+}
+
+.sc:hover {
+     box-shadow: 2px 2px 6px rgba(29, 1, 1, 0.932);
+     background-color: white;
+     border: 1px solid #4E47FF ;
+}
+
+
+.joined h1 {
+    font-size: 2rem;
+    color: #252432;
+    transition: linear 0.2s;
+}
+
+.joined h1:hover {
+    color: #4E47FF;
+}
+
+
+ .group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+ }
+
+ .active {
+    font-size: 3rem;
+    color: #4E47FF;   
+    transition: linear 0.2s;
+ }
+  .active:hover {
+    color: #250000e1;
+  }
+ .user {
+    color: #110f0fb9;
+    transition: linear 0.1s;
+ }
+ .user:hover {
+    color:#000002
+ }
